@@ -1,0 +1,3 @@
+# One gem per line: <download URL> <sha256>
+# Add a line to publish a gem; the Pages workflow downloads each file,
+# checks its hash and rebuilds the index.

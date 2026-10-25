@@ -1,0 +1,58 @@
+name: Publish gem index
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v4
+        with:
+          persist-credentials: false
+      - uses: ruby/setup-ruby@651ff0d62c5c79bed6d53ec518387aae20e72c1a # v1
+        with:
+          ruby-version: "3.4"
+      - name: Download gems and check their hashes
+        run: |
+          mkdir -p site/gems
+          grep -v '^\s*\(#\|$\)' gems.txt | while read -r url sha; do
+            file="site/gems/$(basename "$url")"
+            curl -fsSL --retry 3 -o "$file" "$url"
+            echo "${sha}  ${file}" | sha256sum --check --strict
+          done
+      - name: Build the index
+        run: |
+          gem install --no-document rubygems-generate_index
+          if ls site/gems/*.gem >/dev/null 2>&1; then
+            gem generate_index --directory site
+          fi
+          cp README.md site/index.md
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
