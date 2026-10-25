@@ -1,3 +1,4 @@
 # One gem per line: <download URL> <sha256>
 # Add a line to publish a gem; the Pages workflow downloads each file,
 # checks its hash and rebuilds the index.
+https://github.com/DRM51/mini_racer/releases/download/v0.22.2.1/mini_racer-0.22.2.1.gem c4c6886b239d6f7c11bb276613f86cafa66f5103292ecb7467a2037a48e30070
