@@ -14,3 +14,5 @@ https://github.com/DRM51/mini_racer/releases/download/v0.22.2.3/mini_racer-0.22.
 https://github.com/DRM51/mini_racer/releases/download/v0.22.2.4/mini_racer-0.22.2.4.gem 70fd80cc494184a0144a6f553da5bb8687daf10db8d20c06ea4a7b7d5c68a0d6
 https://github.com/DRM51/mini_racer/releases/download/v0.22.2.5/mini_racer-0.22.2.5.gem 17357c44bb27175fa6076595f0d534508c7bacf63bd412a6bec1bef0bc9ba652
 https://github.com/DRM51/mini_racer/releases/download/v0.22.2.6/mini_racer-0.22.2.6.gem 31a48d2b03e463408476a30abd408104a09bcc9b84151e9ac7d9c2658258b7ac
+https://github.com/DRM51/mini_racer/releases/download/v0.22.2.7/mini_racer-0.22.2.7.gem 15eb8a6bded74aa4d3af7cd7b57311c0dd399511f3601d16efc9b302bc8bcd4a
+https://github.com/DRM51/mini_racer/releases/download/v0.22.2.8/mini_racer-0.22.2.8.gem c0a14d9578d0cacb8d109f1fe841d9d8189b60f4400ed88693a9e76c0cf293d3
