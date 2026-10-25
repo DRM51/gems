@@ -10,3 +10,5 @@ https://github.com/DRM51/mini_racer/releases/download/v0.22.2.2/mini_racer-0.22.
 https://github.com/DRM51/libv8-node/releases/download/v26.12.1.0.2/libv8-node-26.12.1.0.2-arm64-darwin.gem 6dd8c3546f1f5550d65dbd28c64dfeae743958730f12ed025cb9717d1f8e03f0
 https://github.com/DRM51/libv8-node/releases/download/v26.12.1.0.2/libv8-node-26.12.1.0.2-x86_64-darwin.gem 4be0bf2527f478f040e50fdac3554959621c28af7a745550025306f07845f8bd
 https://github.com/DRM51/libv8-node/releases/download/v26.12.1.0.2/libv8-node-26.12.1.0.2.gem 3acf3cb9634384890726aeb2c53d7336ed5b75169a0c8f5bd5181cc4805c4f38
+https://github.com/DRM51/mini_racer/releases/download/v0.22.2.3/mini_racer-0.22.2.3.gem 80e67a49080ddf3dc469dae214941579fccbf00c7a9aa64e0ad47ab4e5f8e18e
+https://github.com/DRM51/mini_racer/releases/download/v0.22.2.4/mini_racer-0.22.2.4.gem 70fd80cc494184a0144a6f553da5bb8687daf10db8d20c06ea4a7b7d5c68a0d6
