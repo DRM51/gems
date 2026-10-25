@@ -2,3 +2,7 @@
 # Add a line to publish a gem; the Pages workflow downloads each file,
 # checks its hash and rebuilds the index.
 https://github.com/DRM51/mini_racer/releases/download/v0.22.2.1/mini_racer-0.22.2.1.gem c4c6886b239d6f7c11bb276613f86cafa66f5103292ecb7467a2037a48e30070
+https://github.com/DRM51/libv8-node/releases/download/v26.12.1.0.2/libv8-node-26.12.1.0.2-aarch64-linux-musl.gem 501375966338094e7940ee21850319b7461ae2a995913c0fe87586b20a9f0c54
+https://github.com/DRM51/libv8-node/releases/download/v26.12.1.0.2/libv8-node-26.12.1.0.2-aarch64-linux.gem 54ca0883895d6d12a66d24d8fe956fbc5320dc99ee4eaa644d97454b83d309fd
+https://github.com/DRM51/libv8-node/releases/download/v26.12.1.0.2/libv8-node-26.12.1.0.2-x86_64-linux-musl.gem 6159d60ab2caaab4710cf0e38776871c88a6e7c1fb2895bbd7f60c462a6ec326
+https://github.com/DRM51/libv8-node/releases/download/v26.12.1.0.2/libv8-node-26.12.1.0.2-x86_64-linux.gem 504a327fd6645f8bded7badb2364c3d26066ac664ba8c3ae64d1e5a66b830910
