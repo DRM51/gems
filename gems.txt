@@ -3,7 +3,6 @@
 # checks its hash and rebuilds the index.
 # Only builds in use are listed. Every build stays on GitHub as a release;
 # relist one by adding its line back.
-https://github.com/DRM51/mini_racer/releases/download/v0.22.2.13/mini_racer-0.22.2.13.gem a0b9ccdb1ab46ba4c43a01ee69073809ef1fbc478a2dfea7c2ef6d575243f6e8
 https://github.com/DRM51/libv8-node/releases/download/v14.6.202.34.2/drm51_libv8_node-14.6.202.34.2-aarch64-linux-musl.gem f6df734baa6b0e570b7ecab093702cf2fb3497193b8f66f0f9ef0adcaf36f20b
 https://github.com/DRM51/libv8-node/releases/download/v14.6.202.34.2/drm51_libv8_node-14.6.202.34.2-aarch64-linux.gem a88c8cd9c7cefbca05085d70bc92c8b875dd0ddf92b7ca7bff390f518f334ceb
 https://github.com/DRM51/libv8-node/releases/download/v14.6.202.34.2/drm51_libv8_node-14.6.202.34.2-arm64-darwin.gem a8f2179375506944760ec87a964cfb4842bdc4f319726f11a8ab7373eeb519cb
